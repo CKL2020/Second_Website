@@ -1,32 +1,32 @@
-/*Solid green border around the text, I like it*/
+/*Red border-surrounding the text*/
 body {
-	border:8px solid green;
+	border:5px solid red;
 }
 
-/*Code of the top header*/
+/*Code for the top header*/
 .header{
-  	background-color: green;
+  	background-color: red;
 	text-align: center;
-   	padding: 15px;
-	border:8px solid green;
+   	padding: 20px;
+	border:5px solid red;
 }
 
 /*Code to use on most text in the website*/
 .text {
-	background-color:gray;
-	text-color:white;
-	border:5px solid  blue;
+	background-color:white;
+	text-color:black;
+	border:5px solid red;
 }
 
-/*Code for Bigger Text*/
+/*Code to make text larger*/
 .large	{
-	font-size: 175%
+	font-size: 200%
 }
 
 /* The navbar container */
 .topnav {
     overflow: hidden;
-    background-color: orange;
+    background-color: red;
 }
 
 /* Navbar links */
@@ -35,11 +35,11 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 12px 18px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Color change when hover on Links*/
+/* Links - change color on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: white;
@@ -48,35 +48,35 @@ body {
 /*Column Allignment and Color*/
 .column {
     float: left;
-	background-color: green;
+	background-color: red;
 }
 
 /* Left and right column */
 .side {
         float: right;
 	width: 25%;
-	background-color: green;
+	background-color: red;
 }
 
 /* Middle column */
 .middle {
-   	width: 43%;
+   	width: 48%;
 	float: center;
 	text-allign: center;
-	background-color: green;
+	background-color: red;
 }
 
-/* This makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
-    width: 120%;
+    width: 100%;
   }
 }
 
-/* Creates three equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 40%;
+    width: 25%;
 }
 
 /* Clear floats after the columns */
@@ -86,16 +86,17 @@ body {
     clear: both;
 }
 
-/* This makes the three columns stack on top of each other instead of next to each other on smaller screens */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 @media screen and (max-width: 600px) {
     .column {
-        width: 125%;
+        width: 100%;
     }
 }
 
 /*What appears on the bottom of the page*/
 .footer {
-    background-color: green;
+    background-color: red;
     text-align: center;
-    padding: 12px; 
+    padding: 10px;
 }
+
