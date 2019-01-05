@@ -1,14 +1,14 @@
 /*Solid green border around the text, I like it*/
 body {
-	border:8px solid green;
+	border:5px solid green;
 }
 
 /*Code of the top header*/
 .header{
-  	background-color: green;
-	text-align: center; 
-   	padding: 15px;
-	border:8px solid green;
+  	background-color: green; 
+	text-align: center;
+   	padding: 20px;
+	border:5px solid green;
 }
 
 /*Code to use on most text in the website*/
@@ -20,7 +20,7 @@ body {
 
 /*Code for Bigger Text*/
 .large	{
-	font-size: 175%
+	font-size: 200%
 }
 
 /* The navbar container */
@@ -35,7 +35,7 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 12px 18px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ body {
 
 /* Middle column */
 .middle {
-   	width: 43%;
+   	width: 48%;
 	float: center;
 	text-allign: center;
 	background-color: green;
@@ -69,14 +69,14 @@ body {
 /* This makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
-    width: 120%;
+    width: 100%;
   }
 }
 
 /* Creates three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 40%;
+    width: 25%;
 }
 
 /* Clear floats after the columns */
@@ -89,7 +89,7 @@ body {
 /* This makes the three columns stack on top of each other instead of next to each other on smaller screens */
 @media screen and (max-width: 600px) {
     .column {
-        width: 125%;
+        width: 100%;
     }
 }
 
@@ -97,5 +97,5 @@ body {
 .footer {
     background-color: green;
     text-align: center;
-    padding: 12px; 
+    padding: 10px; 
 }
