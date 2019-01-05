@@ -1,14 +1,14 @@
 /*Solid green border around the text, I like it*/
 body {
-	border:5px solid green;
+	border:5px solid red;
 }
 
 /*Code of the top header*/
 .header{
-  	background-color: green; 
+  	background-color: red; 
 	text-align: center;
    	padding: 20px;
-	border:5px solid green;
+	border:5px solid red;
 }
 
 /*Code to use on most text in the website*/
@@ -48,14 +48,14 @@ body {
 /*Column Allignment and Color*/
 .column {
     float: left;
-	background-color: green;
+	background-color: red;
 }
 
 /* Left and right column */
 .side {
         float: right;
 	width: 25%;
-	background-color: green;
+	background-color: red;
 }
 
 /* Middle column */
@@ -63,7 +63,7 @@ body {
    	width: 48%;
 	float: center;
 	text-allign: center;
-	background-color: green;
+	background-color: red;
 }
 
 /* This makes the three columns stack on top of each other instead of next to each other */
